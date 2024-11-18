@@ -1,0 +1,13 @@
+
+name: Trigger Workflow Communication Config Services - Dev Env
+on:
+  push:
+    branches: [ test ]
+  workflow_dispatch:
+
+jobs:
+  trigger:
+    runs-on: one-thd-gcp
+    steps:
+      - name: Trigger workflow in target repo ecc_e2e_automation
+        run: echo "test branch"
