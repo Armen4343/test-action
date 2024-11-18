@@ -1,5 +1,5 @@
 
-name: Trigger Workflow Communication Config Services - Dev Env
+name: test
 on:
   push:
     branches: [ test ]
